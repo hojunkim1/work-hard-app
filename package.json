@@ -1,7 +1,12 @@
 {
-  "name": "my-project",
+  "name": "work-hard-app",
   "version": "0.1.0",
-  "main": "node_modules/expo/AppEntry.js",
+  "description": "work hard travel hard app",
+  "main": "index.js",
+  "repository": "https://github.com/hojunkim1/work-hard-app.git",
+  "author": "Hojun Kim <76956067+hojunkim1@users.noreply.github.com>",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -20,6 +25,5 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
-  },
-  "private": true
+  }
 }
